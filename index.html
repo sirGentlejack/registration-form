@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>OXCO NIGERIA INDUSTRY</h1>
+            <p>
+                18, whari road,P.O. Box 68, Apapa Lagos.<br>
+                Tel:01-5817547, 08092726149.
+            </p>
+        </header>
+    </div>
+    <div class="main">
+        <form action="/sucess.html" target="_self"  autocomplete="on"  >
+            <fieldset>
+                <legend>BIO-DATA FORM</legend>
+                <label for="fullname"> Full name:- </label><br>
+                <input type="text" id="fullname" name="username" required><br>
+                <br>
+                <label for="email">Email:-</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <br>
+                <label for="address">Address:-</label><br>
+                <textarea id="address" name="address" rows="10" cols="20" required></textarea>
+                <br>
+                <br>
+                <label for="phone">Phone number:-</label><br>
+                <input type="phone" id="phone" name="phone" required><br>
+                <br>
+                <label for="sex">Gender:-</label><br>
+                <input type="radio" id="sex" name="sex" value="male">
+                <label for="sex">Male</label><br>
+                <input type="radio" id="sex" name="sex" value="female">
+                <label for="sex">Female</label><br>
+                <br>
+                <label for="passport">Passport:-</label><br>
+                <input type="file" id="passport" name="passport" required><br>
+                <br>
+                <label for="password">Password:-</label><br>
+                <input type="password" id="password" name="password" required><br>
+                <br>
+                <label for="password">Confirm Password:-</label><br>
+                <input type="password" id="password" name="password" required ><br>
+                <br>
+                <a href="sucess.html"><input type="submit" value="SUBMIT" id="submit" onclick="onclickFunction()"></a>
+
+            </fieldset>
+        </form>
+        
+    </div>
+    <footer>REGISTRATION PORTAL</footer>
+</body>
+</html>
